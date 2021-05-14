@@ -24,6 +24,7 @@ namespace SimpleApp
             foreach (UIElement el in MainView.Children) 
             {
                 // Rashid
+                // Hasanov
                 if(el is Button button)
                 {
                     button.Click += Button_Click;
