@@ -25,6 +25,7 @@ namespace SimpleApp
             {
                     if(el is Button button)
                 {
+                    //nikita
                     button.Click += Button_Click;
                 }
             }
