@@ -38,14 +38,18 @@ namespace SimpleApp
             string str = (string)((Button)e.OriginalSource).Content;
 
             if(str =="AC")
-            textlabel.Text = "";
+			{
+                textlabel.Text = "";
+			}
             else if(str =="=")
             {
                 string value = new DataTable().Compute(textlabel.Text, null).ToString();
                 textlabel.Text = value;
             }
             else
+            {
                 textlabel.Text += str;
+            }
         }
     }
 }
