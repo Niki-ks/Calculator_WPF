@@ -23,7 +23,8 @@ namespace SimpleApp
             InitializeComponent();
             foreach (UIElement el in MainView.Children) 
             {
-                    if(el is Button button)
+                // Rashid
+                if(el is Button button)
                 {
                     button.Click += Button_Click;
                 }
@@ -43,7 +44,6 @@ namespace SimpleApp
             }
             else
                 textlabel.Text += str;
-
         }
     }
 }
